@@ -63,6 +63,8 @@ namespace DriveSync.Controllers
             }
         }
 
+        //Teste
+
         private ActionResult<UserToken> GenerateToken(LoginModel userInfo)
         {
             var claims = new[]
